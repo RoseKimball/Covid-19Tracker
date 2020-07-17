@@ -1,0 +1,7 @@
+ 
+.container {
+    justify-content: center;
+    margin: 25px auto !important;
+    display: block !important;
+    text-align: center;
+  }
