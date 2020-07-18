@@ -63,7 +63,7 @@ const Chart = ({ data: { confirmed, recovered, deaths }, country }) => {
   );
 
   return (
-    <div className='container'>
+    <div className='Container'>
       {country ? barChart : lineChart}
     </div>
   );

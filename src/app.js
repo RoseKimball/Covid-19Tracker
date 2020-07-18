@@ -3,6 +3,7 @@ import React from 'react';
 import { Cards, CountryPicker, Chart } from './components';
 import { fetchData } from './api/';
 import './app.css';
+import Logo from './Images/logo.png';
 
 
 class App extends React.Component {
@@ -28,6 +29,7 @@ class App extends React.Component {
 
     return (
       <div className='container'>
+        <img alt="logo" src={Logo}/>
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} /> 
